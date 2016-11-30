@@ -3,7 +3,7 @@ package com.example.dllo.notestudio.DemoAllImage;
 /**
  * Created by dllo on 16/11/26.
  */
-
+//
 public class ConstantsAllImage {
     public static final String IMAGES = "CONSTANTS.IMAGES";
     public static final String IMAGE_POSITION = "CONSTANTS.IMAGE_POSITION";
