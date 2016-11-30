@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="注意1,普通传值Intent里面写Str内容2,接受广播要动态注册onde取消注册"
+            android:textColor="#ff0000"
+            android:textSize="30sp" />
+
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demobro1" />
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demobro2" />
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demobro3" />
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demobro4" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#11f405"
+            android:text="gson.formJson(,)方法\n"/>
+
+        <ImageView
+            style="@style/NoteStySmall"
+            android:src="@mipmap/demogson1"
+            />
+
+        <ImageView
+            style="@style/NoteStySmall"
+            android:src="@mipmap/demogson2"
+            />
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demogson3"
+            />
+        <ImageView
+            style="@style/NoteStySmall"
+            android:src="@mipmap/demogson4"
+            />
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demogson5"
+            />
+
+    </LinearLayout>
+</ScrollView>

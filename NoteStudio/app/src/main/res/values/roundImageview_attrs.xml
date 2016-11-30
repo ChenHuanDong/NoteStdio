@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--这个name和你自定义ImageView的名字一样-->
+    <declare-styleable name="DemoRoundImageViewClass">
+
+        <!--第一个attr是自定义属性的关键字,第二个是属性的类型-->
+        <attr name="isRound" format="boolean"></attr>
+
+    </declare-styleable>
+
+</resources>

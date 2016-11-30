@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="10dp"></corners>
+    <solid android:color="#365214"></solid>
+
+</shape><!-- 圆角 <corners   /> --><!-- 渐变 <gradient  /> --><!-- 间隔 <padding   /> --><!-- 大小 <size   /> --><!-- 填充 <solid   /> --><!-- 描边 <stroke   /> -->

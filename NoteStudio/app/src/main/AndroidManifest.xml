@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dllo.notestudio">
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+    <uses-permission android:name="android.permission.SEND_SMS"></uses-permission>
+
+
+    <application
+        android:name=".Tool.VolleyTwicePackge.MyApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DemoTabLayout.TabLayoutActivityDemo"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity
+            android:name=".DemoTabLayout.DemoTabLayoutNoteActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity
+            android:name=".DemoListView.ListViewDemo"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity
+            android:name=".DemoAsyncTask.AsyTaskDemo"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity
+            android:name=".DemoAsyncTask.BitmapAsyTask"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity
+            android:name=".DemoPrggressBar.PrggressBarAvtivityDemo"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity
+            android:name=".DemoCountTime.DemoCountDownTimer"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity
+            android:name=".DemoExpandable.DemoExpandablelistview"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity
+            android:name=".DemoRecycleview.DemoRecycleviewfirst"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity
+            android:name=".DemoButtonShapeandSel.ButtonShapeandselDemo"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity
+            android:name=".DemoseekBar.DemoSeekbarRatingbarActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity
+            android:name=".DemoAsyncTask.NoteAsttaskDemo"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity
+            android:name=".DemoGson.DemoGsonActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity
+            android:name=".DemoGson.NoteGson"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity
+            android:name=".DemoToolBar.DemoToolBarActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity
+            android:name=".DemoToolBar.Note_Toolbar"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity
+            android:name=".DemoGridView.DemoGridView"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity
+            android:name=".DemoPopupMenu.DemoPopupMenu"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity
+            android:name=".SP.SPDemo"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity
+            android:name=".SP.SPTwoDemo"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity
+            android:name=".SP.NoteSP"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity
+            android:name=".DemoPopupWindow.DemoPopupWindow"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity
+            android:name=".DemoPopupWindow.NotePopupWindow"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity
+            android:name=".DemoDialog.DemoDialogActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity
+            android:name=".DemoDialog.NoteDialogActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity
+            android:name=".DemoVolleyq.DemoVolleyActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity
+            android:name=".DemoVolleyq.NoteVolley"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity
+            android:name=".DemoSMS.DemoSMSActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity
+            android:name=".DemoSMS.NoteSms"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity
+            android:name=".DemoCountTime.NoteCountDownTimer"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity
+            android:name=".DemoCropButtonShape.DemoCropButtonShapeActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity
+            android:name=".DemoTwoFragmentIntent.DemoTwoFrIntentActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity
+            android:name=".DemoTwoFragmentIntent.NoteTwoFrIntentActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity
+            android:name=".Demobroadcast.DemoBroadcastActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity
+            android:name=".Demobroadcast.NoteBroadCast"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity
+            android:name=".DemoBroTwoFr.DemoBroTwiFrActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity
+            android:name=".DemoNotification.DemoNotificationActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity
+            android:name=".Demoshareuse.DemoShareUse"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity
+            android:name=".DemoBroTwoFr.NoteBroTwoFRAll"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity
+            android:name=".DemoEventBus.DemoeventbusActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity
+            android:name=".DemoEventBus.NoteEventBus"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity
+            android:name=".DemoNotification.NoteNotification"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity
+            android:name=".DemoService.DemoServiceActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+
+        <service android:name=".DemoService.DemoService"></service>
+
+        <activity
+            android:name=".DemoService.NoteServiceActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity
+            android:name=".Demodiffrecyview.DemodiffRecycleview"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity
+            android:name=".Demodiffrecyview.Notediffrecview"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity
+            android:name=".Demoshareuse.DemoFussstPress"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity
+            android:name=".DemoButtonShapeandSel.NoteBUttonShapr"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity
+            android:name=".DemoListView.NoteListView"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity
+            android:name=".DemoAsyncTask.NoteAsyImage"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity
+            android:name=".DemoSwipeRefresh.DemoSwipeRefreshActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity
+            android:name=".DemoSwipeRefresh.NoteSwip"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity android:name=".DemoAllImage.DemoAllImageActivity"></activity>
+        <activity android:name=".DemoAllImage.fresco.DemoAllImageFresco"></activity>
+        <activity android:name=".DemoAllImage.glide.DemoAllImageGlide"></activity>
+        <activity android:name=".DemoAllImage.uil.DemoAllImageUil"></activity>
+        <activity android:name=".DemoAllImage.picasso.DemoAllImagePicasso"></activity>
+        <activity
+            android:name=".DemoAllImage.NoteAllImage"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity
+            android:name=".Demoshareuse.DemoDemoguifan"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity
+            android:name=".Demoshareuse.DemoDemojilei"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity android:name=".DemoChouti.DemoChoutiActivity"></activity>
+        <activity
+            android:name=".DemoChouti.NoteChouti"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity android:name=".DemoBannerL.DemoBannerActivity"></activity>
+        <activity
+            android:name=".DemoBannerL.NoteBannerL"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity><!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".DemoBaseBanner.DemoBaseBannerActivity"></activity>
+        <activity
+            android:name=".DemoBaseBanner.NoteBaseBanner"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity android:name=".DemoLeftRightImageChange.DemoLeftRightImageChagneActivity"></activity>
+        <activity
+            android:name=".DemoLeftRightImageChange.NoteLeftRight"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity android:name=".DemoTwoListView.DemoTwoListViewActivity"></activity>
+        <activity
+            android:name=".DemoTwoListView.NoteTwoLiatView"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity android:name=".DemoFragmentRecycle.DemoRecFrActivity"></activity>
+        <activity
+            android:name=".DemoFragmentRecycle.NoteFRVFRV"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity android:name=".Tool.VolleyTwicePackge.DemoVolleyTwiceTest"></activity>
+        <activity
+            android:name=".Tool.VolleyTwicePackge.NoteVolleyTwice"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity
+            android:name=".Demoshareuse.NoteUseGitHubandSourceTree"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+
+    </application>
+
+
+</manifest>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/demo_all_iamge_fresco_draw"
+
+        />
+
+
+    <!--可以在这里设置各种属性-->
+    <!--fresco:actualImageScaleType="focusCrop"-->
+    <!--fresco:placeholderImage="@mipmap/ic_launcher"-->
+    <!--fresco:placeholderImageScaleType="fitCenter"-->
+    <!--fresco:failureImage="@mipmap/ic_launcher"-->
+    <!--fresco:failureImageScaleType="centerInside"-->
+    <!--fresco:retryImage="@mipmap/ic_launcher"-->
+    <!--fresco:retryImageScaleType="centerCrop"-->
+    <!--fresco:progressBarImage="@mipmap/ic_launcher"-->
+    <!--fresco:progressBarImageScaleType="centerInside"-->
+    <!--fresco:progressBarAutoRotateInterval="1000"-->
+    <!--fresco:backgroundImage="@android:color/holo_blue_bright"-->
+    <!--fresco:overlayImage="@mipmap/ic_launcher"-->
+    <!--fresco:pressedStateOverlayImage="@android:color/holo_blue_bright"-->
+    <!--fresco:roundAsCircle="false"-->
+    <!--fresco:roundedCornerRadius="1dp"-->
+    <!--fresco:roundTopLeft="true"-->
+    <!--fresco:roundTopRight="false"-->
+    <!--fresco:roundBottomLeft="false"-->
+    <!--fresco:roundBottomRight="true"-->
+    <!--fresco:roundWithOverlayColor="@android:color/holo_blue_bright"-->
+    <!--fresco:roundingBorderWidth="2dp"-->
+    <!--fresco:roundingBorderColor="@android:color/holo_blue_bright"-->
+
+
+
+
+</LinearLayout>

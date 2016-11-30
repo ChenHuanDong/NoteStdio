@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="onCreateOptionsMenu(Menu menu)方法\ngetMenuInflater().inflate(R.menu.menu, menu)\nonOptionsItemSelected(MenuItem item)方法;
+"
+            android:textColor="#11f405"
+            android:textSize="20sp" />
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demotoobar1" />
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demotoobar2" />
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demotoobar3" />
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demotoobar4" />
+
+
+    </LinearLayout>
+</ScrollView>

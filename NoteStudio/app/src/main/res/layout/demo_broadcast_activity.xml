@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/demo_bro_tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="现在还没有值"/>
+
+
+    <EditText
+        android:id="@+id/demo_bro_et1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="输入传到上面textview的内容" />
+
+    <Button
+        android:id="@+id/demo_bro_btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点击把ET值传到TV" />
+
+</LinearLayout>

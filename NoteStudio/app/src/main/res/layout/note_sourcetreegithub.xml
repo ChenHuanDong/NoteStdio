@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="先提交再推送,只能在Develop分支操作\n先在GitHub新建一个项目有个网站,在SourceTree+新仓库,从URL克隆,自己出来目标路径和名称,然后在里面新建工程或者把工程放进去第一次在master里面提交然后点击上面的GitFlow新建一个Develop分支以后提交只能提交Develop分支然后推送就可以在GitHub上面看见了,GitHub网站要在指定位置改成Develop观看,不然只能看master的"
+            android:textSize="20dp"
+            android:textColor="#00ff00"/>
+
+        <ImageView
+            style="@style/NoteStySmall"
+            android:src="@mipmap/demo_sercou_1"/>
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demo_sercou_2"/>
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demo_sercou_3"/>
+<ImageView
+    style="@style/NoteSty"
+    android:src="@mipmap/demo_sercou_1"
+    />
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demo_sercou_2"
+            />
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demo_sercou_3"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

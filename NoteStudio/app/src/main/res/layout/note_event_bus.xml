@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="注意:依赖,接收的生命周期,用完取消注册,用@Subs自定义方法接收设置"
+            android:textColor="#ff0000"
+            android:textSize="30sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1,导依赖 "
+            android:textColor="#00ff00"
+            android:textSize="30sp" />
+
+
+        <ImageView
+            style="@style/NoteStySmall"
+            android:src="@mipmap/demoeventbus1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2,传值 "
+            android:textColor="#00ff00"
+            android:textSize="30sp" />
+        <ImageView
+            style="@style/NoteStySmall"
+            android:src="@mipmap/demoeventbus2" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3,接受值 "
+            android:textColor="#00ff00"
+            android:textSize="30sp" />
+
+        <ImageView
+            style="@style/NoteStySmall"
+            android:src="@mipmap/demoeventbus3" />
+
+        <ImageView
+            style="@style/NoteStySmall"
+            android:src="@mipmap/demoeventbus4" />
+
+        <ImageView
+            style="@style/NoteStySmall"
+            android:src="@mipmap/demoeventbus5" />
+
+    </LinearLayout>
+
+
+</ScrollView>

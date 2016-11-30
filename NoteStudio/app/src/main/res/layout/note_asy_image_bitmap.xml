@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="三个范型不需要过程所以中间是void,最后结果是Bitmap,传入的是网址Str"
+            android:textSize="25sp"
+            android:textColor="#00ff00"/>
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demo_astimage1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="=BitmapFactory.decoStream  这个方法别忘了!!!"
+            android:textSize="25sp"
+            android:textColor="#00ff00"/>
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demo_astimage2"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="为iv设置形参上个方法传回来的biemap"
+            android:textSize="25sp"
+            android:textColor="#00ff00"/>
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demo_astimage3"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="主活动启动异步"
+            android:textSize="25sp"
+            android:textColor="#00ff00"/>
+
+        <ImageView
+            style="@style/NoteStySmall"
+            android:src="@mipmap/demo_astimage4"/>
+
+    </LinearLayout>
+
+</ScrollView>

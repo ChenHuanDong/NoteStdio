@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="布局vp+tabLayout\n适配器继承FragmentPagerAdapter\n调用两次方法(位置 大小,构造方法),建立标题String数组,getPagerTitle方法\n活动tabLayout.setupWithViewPager,getTabAt(position).setIcon(选择器) 此方法设置图标\n主活动如果加载的是View的话注入视图就是\ngetLayoutin..()in.."
+            android:textColor="#11f405"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="#ff0000"
+            android:text="数据加载View的时候是适配器一定要有增加页卡和删除页卡的方法"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="setTabTextColors,setSelectedTabIndicatorColor" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\n\n\n\ncmd+;" />
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demotablayout1" />
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demotablayout2" />
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demotablayout3" />
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demotablayout4" />
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demotablayout5" />
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demotablayout6" />
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demotablayout7" />
+
+        <ImageView
+            style="@style/NoteStySmall"
+            android:src="@mipmap/demotablayout8" />
+
+
+    </LinearLayout>
+</ScrollView>

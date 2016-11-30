@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="注意:1,传值方法LocalBroMan.getInst(getCo()).sendBro(intent)发送广播\n2,接收要定义LocalBroMan,初始化,3,自己定义广播接收者对象重写方法"
+            android:textColor="#ff0000"
+            android:textSize="40sp" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="在fragment里面用广播需要自己创建LoaclBroadcastManager和广播接收者\n"
+            android:textColor="#00ff00"
+            android:textSize="30sp" />
+
+        <ImageView
+            style="@style/NoteStySmall"
+            android:src="@mipmap/demotwofrall1" />
+
+        <ImageView
+            style="@style/NoteStySmall"
+            android:src="@mipmap/demotwofrall2" />
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demotwofrall3" />
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demotwofrall4" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

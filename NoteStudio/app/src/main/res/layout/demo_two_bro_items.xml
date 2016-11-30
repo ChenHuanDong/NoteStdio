@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/demo_two_bro_items_tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="现在还没有值传过来" />
+
+    <EditText
+        android:id="@+id/demo_two_bro_items_et1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入要传的值" />
+
+    <Button
+        android:id="@+id/demo_two_bro_items_btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点击传值" />
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/demo_all_iamge_btn_uil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Universal-Image-Loader" />
+
+    <Button
+        android:id="@+id/demo_all_iamge_btn_picasso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Picasso" />
+
+    <Button
+        android:id="@+id/demo_all_iamge_btn_glide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Glide" />
+
+    <Button
+        android:id="@+id/demo_all_iamge_btn_fresco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fresco" />
+
+</LinearLayout>

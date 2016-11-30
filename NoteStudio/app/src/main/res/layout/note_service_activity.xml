@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="服务在fragment里面要getContext"
+            android:textColor="#ff0000"
+            android:textSize="25sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="清单文件注册服务"
+            android:textColor="#00ff00"
+            android:textSize="25sp" />
+
+
+        <ImageView
+            style="@style/NoteStySmall"
+            android:src="@mipmap/demo_service1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="新建一个Myservice类继承Service\n有四个生命周期\n开线程一定要记得.start"
+            android:textColor="#00ff00"
+            android:textSize="25sp" />
+
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demo_service2" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="onbind生命周期返回自己在下面写的binder"
+            android:textColor="#00ff00"
+            android:textSize="25sp" />
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demo_service3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="新建一个binder类,里面写自定义方法主活动引用"
+            android:textColor="#00ff00"
+            android:textSize="25sp" />
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demo_service4" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="主活动要定义两个"
+            android:textColor="#00ff00"
+            android:textSize="25sp" />
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demo_service5" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ServiceConnection初始化"
+            android:textColor="#00ff00"
+            android:textSize="25sp" />
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demo_service6" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Intent对象变成全局,在creat生命周期写"
+            android:textColor="#00ff00"
+            android:textSize="25sp" />
+
+
+        <ImageView
+            style="@style/NoteStySmall"
+            android:src="@mipmap/demo_service7" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="绑定服务和开启线程取值调方法必须也要开线程接收,最后别忘.start"
+            android:textColor="#00ff00"
+            android:textSize="25sp" />
+
+
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demo_service8" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="在onde里面取消绑定"
+            android:textColor="#00ff00"
+            android:textSize="25sp" />
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demo_service9" />
+
+    </LinearLayout>
+</ScrollView>

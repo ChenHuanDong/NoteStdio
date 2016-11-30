@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demotwofrintent1" />
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demotwofrintent2" />
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demotwofrintent3" />
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demotwofrintent4" />
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demotwofrintent5" />
+
+        <ImageView
+            style="@style/NoteStySmall"
+            android:src="@mipmap/demotwofrintent6" />
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demotwofrintent7" />
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demotwofrintent8" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,929 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="近期"
+            android:textColor="@color/colorRed"
+            android:textSize="40sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/main_btn81"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Volley二次封装"
+                android:textColor="@color/colorGreen" />
+
+            <Button
+                android:id="@+id/main_btn82"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="代码"
+                android:textColor="@color/colorGreen" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/main_btn83"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="怎么用别人的Jar包"
+                android:textColor="@color/colorGreen" />
+
+            <Button
+                android:id="@+id/main_btn84"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="SourceTree使用"
+                android:textColor="@color/colorGreen" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/main_btn79"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="轮播图原理(未用依赖)"
+                android:textColor="@color/colorGreen" />
+
+            <Button
+                android:id="@+id/main_btn80"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="代码"
+                android:textColor="@color/colorGreen" />
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/main_btn63"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="四种加载图片的方法"
+                android:textColor="@color/colorRed" />
+
+            <Button
+                android:id="@+id/main_btn64"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="代码"
+                android:textColor="@color/colorRed" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/main_btn15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="上拉加载下拉刷新"
+                android:textColor="@color/colorBule" />
+
+            <Button
+                android:id="@+id/main_btn16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="代码"
+                android:textColor="@color/colorBule" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/main_btn19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="左右滑放大缩小图片"
+                android:textColor="@color/colorBule" />
+
+            <Button
+                android:id="@+id/main_btn20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="代码"
+                android:textColor="@color/colorBule" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/main_btn67"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Banner条"
+                android:textColor="@color/colorBule" />
+
+            <Button
+                android:id="@+id/main_btn68"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="代码"
+                android:textColor="@color/colorBule" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/main_btn69"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="抽屉"
+                android:textColor="@color/colorPurple" />
+
+            <Button
+                android:id="@+id/main_btn70"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="代码"
+                android:textColor="@color/colorPurple" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/main_btn71"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="fragment复用"
+                android:textColor="@color/colorRed" />
+
+            <Button
+                android:id="@+id/main_btn72"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="代码"
+                android:textColor="@color/colorRed" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/main_btn73"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="listview联动"
+                android:textColor="@color/colorBule" />
+
+            <Button
+                android:id="@+id/main_btn74"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="代码"
+                android:textColor="@color/colorBule" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/main_btn75"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="分享功能"
+                android:textColor="@color/colorRed" />
+
+            <Button
+                android:id="@+id/main_btn76"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="代码"
+                android:textColor="@color/colorRed" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/main_btn77"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Post解析"
+                android:textColor="@color/colorRed" />
+
+            <Button
+                android:id="@+id/main_btn78"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="代码"
+                android:textColor="@color/colorRed" />
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="功能类"
+            android:textColor="@color/colorBule"
+            android:textSize="40sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/main_btn45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="自定义裁剪圆形图片"
+                android:textColor="@color/colorBule" />
+
+            <Button
+                android:id="@+id/main_btn46"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="代码"
+                android:textColor="@color/colorBule" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/main_btn47"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="fragment之间传值"
+                android:textColor="@color/colorBule" />
+
+            <Button
+                android:id="@+id/main_btn48"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="代码"
+                android:textColor="@color/colorBule" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/main_btn49"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Activity中的广播"
+                android:textColor="@color/colorBule" />
+
+            <Button
+                android:id="@+id/main_btn50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="代码"
+                android:textColor="@color/colorBule" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/main_btn51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fragment中的广播传值"
+                android:textColor="@color/colorBule" />
+
+            <Button
+                android:id="@+id/main_btn52"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="代码"
+                android:textColor="@color/colorBule" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/main_btn53"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Notification(上面的提示条)"
+                android:textColor="@color/colorBule" />
+
+            <Button
+                android:id="@+id/main_btn54"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="代码"
+                android:textColor="@color/colorBule" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/main_btn57"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EventBusfr之间传值"
+                android:textColor="@color/colorBule" />
+
+            <Button
+                android:id="@+id/main_btn58"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="代码"
+                android:textColor="@color/colorBule" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/main_btn59"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="服务以及利用服务完成倒计时"
+                android:textColor="@color/colorBule" />
+
+            <Button
+                android:id="@+id/main_btn60"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="代码"
+                android:textColor="@color/colorBule" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/main_btn43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="数据库SQL"
+                android:textColor="@color/colorBule" />
+
+            <Button
+                android:id="@+id/main_btn44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="代码"
+                android:textColor="@color/colorBule" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/main_btn13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CountDownTimer"
+                android:textColor="@color/colorBule" />
+
+            <Button
+                android:id="@+id/main_btn14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="代码"
+                android:textColor="@color/colorBule" />
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="网络类"
+            android:textColor="@color/colorNavy"
+            android:textSize="40sp" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/main_btn39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Volley请求队列"
+                android:textColor="@color/colorNavy" />
+
+            <Button
+                android:id="@+id/main_btn40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="代码"
+                android:textColor="@color/colorNavy" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/main_btn27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="recycle  Gson解析"
+                android:textColor="@color/colorNavy" />
+
+            <Button
+                android:id="@+id/main_btn28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="代码"
+                android:textColor="@color/colorNavy" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="实用类"
+            android:textColor="@color/colorGreen"
+            android:textSize="40sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/main_btn65"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="代码规范"
+                android:textColor="@color/colorGreen" />
+
+            <Button
+                android:id="@+id/main_btn66"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="最基本封装的Aty和fr"
+                android:textColor="@color/colorGreen" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/main_btn55"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="别人分享的代码怎么使用"
+                android:textColor="@color/colorGreen" />
+
+            <Button
+                android:id="@+id/main_btn56"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="常用快捷键"
+                android:textColor="@color/colorGreen" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="基本类"
+            android:textColor="@color/colorPurple"
+            android:textSize="40sp" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/main_btn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TabLayout"
+                android:textColor="@color/colorPurple" />
+
+            <Button
+                android:id="@+id/main_btn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="代码"
+                android:textColor="@color/colorPurple" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/main_btn3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button Style"
+                android:textColor="@color/colorPurple" />
+
+            <Button
+                android:id="@+id/main_btn4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="代码"
+                android:textColor="@color/colorPurple" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/main_btn5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Listview"
+                android:textColor="@color/colorPurple" />
+
+            <Button
+                android:id="@+id/main_btn6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="代码"
+                android:textColor="@color/colorPurple" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/main_btn7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AsyncTask运行dialog"
+                android:textColor="@color/colorPurple" />
+
+            <Button
+                android:id="@+id/main_btn8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="代码"
+                android:textColor="@color/colorPurple" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/main_btn9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AsyncTask运行加载网络图片"
+                android:textColor="@color/colorPurple" />
+
+            <Button
+                android:id="@+id/main_btn10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="代码"
+                android:textColor="@color/colorPurple" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/main_btn11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AsyncTaskProgressBar进度条"
+                android:textColor="@color/colorPurple" />
+
+            <Button
+                android:id="@+id/main_btn12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="代码"
+                android:textColor="@color/colorPurple" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/main_btn17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ExpanDableListView"
+                android:textColor="@color/colorPurple" />
+
+            <Button
+                android:id="@+id/main_btn18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="代码"
+                android:textColor="@color/colorPurple" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/main_btn21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="最基本的recycleview"
+                android:textColor="@color/colorPurple" />
+
+            <Button
+                android:id="@+id/main_btn22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="代码"
+                android:textColor="@color/colorPurple" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/main_btn23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="seekbar和ratingbar"
+                android:textColor="@color/colorPurple" />
+
+            <Button
+                android:id="@+id/main_btn24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="代码"
+                android:textColor="@color/colorPurple" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/main_btn25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="持久化技术SP"
+                android:textColor="@color/colorPurple" />
+
+            <Button
+                android:id="@+id/main_btn26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="代码"
+                android:textColor="@color/colorPurple" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/main_btn29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="toolbar"
+                android:textColor="@color/colorPurple" />
+
+            <Button
+                android:id="@+id/main_btn30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="代码"
+                android:textColor="@color/colorPurple" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/main_btn31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GridView"
+                android:textColor="@color/colorPurple" />
+
+            <Button
+                android:id="@+id/main_btn32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="代码"
+                android:textColor="@color/colorPurple" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/main_btn33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PopupMenu"
+                android:textColor="@color/colorPurple" />
+
+            <Button
+                android:id="@+id/main_btn34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="代码"
+                android:textColor="@color/colorPurple" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/main_btn35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PopupWindow"
+                android:textColor="@color/colorPurple" />
+
+            <Button
+                android:id="@+id/main_btn36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="代码"
+                android:textColor="@color/colorPurple" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/main_btn37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DiaLog"
+                android:textColor="@color/colorPurple" />
+
+            <Button
+                android:id="@+id/main_btn38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="代码"
+                android:textColor="@color/colorPurple" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/main_btn41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="发短信"
+                android:textColor="@color/colorPurple" />
+
+            <Button
+                android:id="@+id/main_btn42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="代码"
+                android:textColor="@color/colorPurple" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/main_btn61"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="不同行布局的RecycleView"
+                android:textColor="@color/colorPurple" />
+
+            <Button
+                android:id="@+id/main_btn62"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="代码"
+                android:textColor="@color/colorPurple" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</ScrollView>

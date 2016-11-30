@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="绑定数据和绑定视适配器必须必须必须写在请求队列里面"
+            android:textSize="40sp"
+            android:textColor="#ff0000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="注意1,导两个依赖2,String url 网址\n3,RequQu a = Volley.newRQ(th)\n4,StrR a = new SR(url , new L , new E)在newL里面写响应的逻辑\n4,Gson解析\n最后最后别忘了前面requQ对象.add(strR对象)"
+            android:textSize="40sp"
+            android:textColor="#ff0000"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="插件,依赖\n"
+            android:textColor="#00ff00"
+            android:textSize="30sp"/>
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/gsonformat" />
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demovolley1" />
+
+        <ImageView
+            style="@style/NoteStySmall"
+            android:src="@mipmap/demovolley2" />
+
+        <ImageView
+            style="@style/NoteStySmall"
+            android:src="@mipmap/demovolley3" />
+
+        <ImageView
+            style="@style/NoteStySmall"
+            android:src="@mipmap/demovolley4" />
+
+        <ImageView
+            style="@style/NoteStySmall"
+            android:src="@mipmap/demovolley5" />
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demovolley6" />
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demovolley8" />
+
+    </LinearLayout>
+
+</ScrollView>
