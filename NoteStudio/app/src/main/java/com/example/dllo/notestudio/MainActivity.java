@@ -72,6 +72,7 @@ import com.example.dllo.notestudio.Demoshareuse.DemoDemoguifan;
 import com.example.dllo.notestudio.Demoshareuse.DemoDemojilei;
 import com.example.dllo.notestudio.Demoshareuse.DemoFussstPress;
 import com.example.dllo.notestudio.Demoshareuse.DemoShareUse;
+import com.example.dllo.notestudio.Demoshareuse.NoteGitSS;
 import com.example.dllo.notestudio.Demoshareuse.NoteUseGitHubandSourceTree;
 import com.example.dllo.notestudio.SP.NoteSP;
 import com.example.dllo.notestudio.SP.SPDemo;
@@ -84,13 +85,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             b26, b27, b28, b29, b30, b31, b33, b35, b36, b37, b38, b39, b40, b41,
             b42, b45, b47, b48, b49, b50, b51, b52, b53, b54, b55, b56, b57, b58, b59, b60,
             b61, b62, b63, b64, b65, b66, b67, b68, b69, b70, b71, b72,
-            b73, b74, b79, b80, b81, b82, b84;
+            b73, b74, b79, b80, b81, b82, b84 , b85 , b86;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         initview1();
+        b86 = (Button) findViewById(R.id.main_btn86);
+        b86.setOnClickListener(this);
+        b85 = (Button) findViewById(R.id.main_btn85);
+        b85.setOnClickListener(this);
         b84 = (Button) findViewById(R.id.main_btn84);
         b84.setOnClickListener(this);
         b82 = (Button) findViewById(R.id.main_btn82);
@@ -437,6 +442,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.main_btn84:
                 Intent intent69 = new Intent(this , NoteUseGitHubandSourceTree.class);
                 startActivity(intent69);
+                break;
+            case R.id.main_btn85:
+                Intent intent70 = new Intent(this , NoteUseGitHubandSourceTree.class);
+                startActivity(intent70);
+                break;
+            case R.id.main_btn86:
+                Intent intent71 = new Intent(this , NoteGitSS.class);
+                startActivity(intent71);
                 break;
 
 

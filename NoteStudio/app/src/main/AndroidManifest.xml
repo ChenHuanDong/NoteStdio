@@ -230,6 +230,10 @@
         <activity
             android:name=".Demoshareuse.NoteUseGitHubandSourceTree"
             android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity
+            android:name=".Demoshareuse.NoteGitSS"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+
 
     </application>
 
